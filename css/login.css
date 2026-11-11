@@ -1,0 +1,5 @@
+.login{min-height:100vh;display:grid;place-items:center;background:linear-gradient(135deg,var(--navy),var(--blue))}
+.box{background:#fff;border-radius:20px;padding:34px;width:min(400px,92vw)}.box h1{margin:0;color:var(--navy)}.box h1 span{color:var(--blue)}
+.pw{position:relative}.pw button{position:absolute;right:8px;top:8px;border:0;background:none;cursor:pointer;font-size:1.1rem}
+.msg{padding:10px;border-radius:10px;margin-bottom:12px;display:none}.msg.err{display:block;background:#fee2e2;color:var(--red)}.msg.good{display:block;background:#dcfce7;color:var(--green)}
+.demo{font-size:.8rem;color:var(--gray);margin-top:14px}

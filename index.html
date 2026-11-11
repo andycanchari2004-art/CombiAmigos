@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<title>CombiAmigo</title>
+<script src="js/storage.js"></script>
+<script>location.replace('pages/'+(Storage.get('sesion')?(Storage.get('sesion').rol==='padre'?'dashboard-padre.html':'dashboard-conductor.html'):'login.html'))</script></head><body></body></html>
